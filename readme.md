@@ -11,12 +11,11 @@ lotus-wal是一款基于lotus改版的钱包管理工具，主要有如下改进
 apt update -y 
 apt install wget build-essential libssl-dev curl mesa-common-dev ocl-icd-opencl-dev -y
 
-wget https://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-1.11.5.tar.gz 
-tar -xvzpf hwloc-1.11.5.tar.gz \
-cd hwloc-1.11.5 \
+wget https://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-1.11.5.tar.gz && \
+tar -xvzpf hwloc-1.11.5.tar.gz && \
+cd hwloc-1.11.5 && \
 ./configure && make && sudo make install 
 sudo ldconfig
-
 ```
 * 下载lotus程序，解压到/bin目录
 ### 运行lotus-wal
