@@ -48,6 +48,14 @@ lotus wallet import
 ```sh
 lotus wallet list
 ```
+
+* 删除钱包
+```sh
+# 注意：未备份的钱包私钥会因为删除永久丢失
+lotus wallet delete <wallet addr>
+
+```
+
 * 发送fil到指定钱包
 ```sh
 lotus send --from=<send addr> <to addr> <fil amount>
