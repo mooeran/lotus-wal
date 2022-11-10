@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Affiliated-ord
+    id: name
     attributes:
       label: Affiliated organization
       description: What is your affiliated organization?
@@ -27,7 +27,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Country sadjhsadkj
+    id: Country
     attributes:
       label: Country
       description: Where are your or your organization located?
