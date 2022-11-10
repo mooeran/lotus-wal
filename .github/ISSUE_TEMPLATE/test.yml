@@ -6,6 +6,7 @@ assignees:
   - octocat
 body:
   - type: markdown
+    id: testmarkdown
     attributes:
       value: |
         Thanks for taking the time to fill out this form!
@@ -18,7 +19,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Affiliated organization
+    id: Affiliated-ord
     attributes:
       label: Affiliated organization
       description: What is your affiliated organization?
