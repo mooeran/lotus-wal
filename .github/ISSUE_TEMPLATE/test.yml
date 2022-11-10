@@ -1,16 +1,40 @@
-name: test bug input
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: New Huo Pool Client Due Diligence Form
+description: New Huo Pool Client Due Diligence
+title: "[New Huo Pool Client Due Diligence Form]: "
+labels: ["DataCap", "Client"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this form!
   - type: input
-    id: home address
+    id: name
+    attributes:
+      label: name
+      description: What is your name?
+      placeholder: ex.Dwayne Johnson
+    validations:
+      required: false
+  - type: input
+    id: Affiliated organization
+    attributes:
+      label: Affiliated organization
+      description: What is your affiliated organization?
+      placeholder: ex. xxx Ltd. 
+    validations:
+      required: false
+  - type: input
+    id: Country
+    attributes:
+      label: Country
+      description: Where are your or your organization located?
+      placeholder: ex. American
+    validations:
+      required: false
+  - type: input
+    id: contact
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
