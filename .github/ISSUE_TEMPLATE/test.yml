@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Country
+    id: organization
     attributes:
       label: Affiliated organization
       description: What is your affiliated organization?
