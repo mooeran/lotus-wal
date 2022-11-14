@@ -1,0 +1,179 @@
+name: Client Application Form of MDM
+description: Client Application
+title: "[MDM Client Application]: "
+labels: ["Fliecoin ldn", "Fliecoin +","Approved","Under review"]
+assignees:
+  - MetaverseDataMining
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling out this Form!
+  - type: input
+    id: Name
+    attributes:
+      label: Name
+      description: What is your name?
+      placeholder: Please answer here.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Where we can reach you?
+      description: Offical email wii be the best.
+      placeholder: Please answer here.
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: Do you have any GitHub account?
+      description: Please note the link.
+      placeholder: Please answer here.
+    validations:
+      required: false
+  - type: input
+    id: Representative_social_media
+    attributes:
+      label: Do you have any social media can represent you?
+      description: Please note the link.
+      placeholder: Please answer here.
+    validations:
+      required: true
+  - type: textarea
+    id: Social_Media
+    attributes:
+      label: Do you have other social media account related to you?
+      description: Please note the link.
+      placeholder: Please answer here.Facebook/Discord/slack/github......
+      value: 
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where do you operate your business?
+      multiple: true
+      options:
+        - "South America"
+        - "North America"
+        - "Europe"
+        - "Africa"
+        - "China Region (GCR)"
+        - "Asia minus GCR"
+        - "Oceania"
+  - type: input
+    id: Operatiob_Country
+    attributes:
+      label: Where are your or your organization located? 
+      description: 
+      placeholder: Please answer here.
+    validations:
+      required: true
+  - type: input
+    id: Company_Name
+    attributes:
+      label: Organization/Company Name 
+      description: What is your organization/Company name?
+      placeholder: Please write the full name.
+    validations:
+      required: true
+  - type: input
+    id: Basic_information
+    attributes:
+      label: Where did you learn about Filecoin? and when did you join Filecoin?
+      description: Please describe.
+      placeholder: Please answer here.
+    validations:
+      required: false
+  - type: textarea
+    id: Company_information
+    attributes:
+      label: What is your relationship with the this entity? For your organisation, please describe its size, business type, industry reputation,  real operation location, other releated entity.
+      description:  Please describe.
+      placeholder:  Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: Disputes
+    attributes:
+      label: Do you have any contributions or any disputes in Filecoin?
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: DATA_info
+    attributes:
+      label: Regarding the data you intend to store, where it sources from? Do you have any proof of ownership or authorisation? Are there any other relevant entities associated with this data?
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: Records
+    attributes:
+      label: Has your company or organization applied for DataCap before？If it has, please note the link，and it is better to show the details of DC allocations and SPs information.
+      description: Please describe.
+      placeholder: Please answer here.
+    validations:
+      required: true
+  - type: textarea
+    id: Data_sample
+    attributes:
+      label: Please provide a sample of data that can prove the authenticity of your data, no less than three types.
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: Plan
+    attributes:
+      label: Please describe your DataCap allocation plans . Include percentage of allocation, time of allocation, number of allocations, area of allocation, number of SPs, etc.The more detailed, the better.
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: dropdown
+    id: Public
+    attributes:
+      label: Please confirm that you data is a public dataset that can be retrieved by anyone on the Network.
+      multiple: true
+      options:
+        - "Yes"
+        - "No"
+  - type: input
+  - type: textarea
+    id: Abuse
+    attributes:
+      label: How do you intend to prevent the abuse of DataCap?
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: false
+  - type: input
+  - type: textarea
+    id: Response
+    attributes:
+      label: If there is a dispute during the application procedure? Can you guarantee response in time?
+      description: Please describe.
+      placeholder: Please answer here.
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: Assign_To_Miner
+    attributes:
+      label: Are you looking to assign this project to any particular miner?
+      description: If you are looking to assign this project to a particular miner, please provide details.
+      placeholder: I am not looking to assign this project to any miner in particular.
+      value: 
+    validations:
+      required: true
